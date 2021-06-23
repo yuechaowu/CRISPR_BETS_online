@@ -1,0 +1,121 @@
+LOCUS       NC_029261               2407 bp    DNA     linear   CON 07-AUG-2018
+DEFINITION  Oryza sativa Japonica Group cultivar Nipponbare chromosome 6,
+            IRGSP-1.0.
+ACCESSION   NC_029261 REGION: 2939996..2942402
+VERSION     NC_029261.1
+DBLINK      BioProject: PRJNA122
+            BioSample: SAMD00000397
+            Assembly: GCF_001433935.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BOP
+            clade; Oryzoideae; Oryzeae; Oryzinae; Oryza.
+REFERENCE   1  (bases 1 to 2407)
+  AUTHORS   Kawahara,Y., de la Bastide,M., Hamilton,J.P., Kanamori,H.,
+            McCombie,W.R., Ouyang,S., Schwartz,D.C., Tanaka,T., Wu,J., Zhou,S.,
+            Childs,K.L., Davidson,R.M., Lin,H., Quesada-Ocampo,L.,
+            Vaillancourt,B., Sakai,H., Lee,S.S., Kim,J., Numa,H., Itoh,T.,
+            Buell,C.R. and Matsumoto,T.
+  TITLE     Improvement of the Oryza sativa Nipponbare reference genome using
+            next generation sequence and optical map data
+  JOURNAL   Rice (N Y) 6 (1), 4 (2013)
+   PUBMED   24280374
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            AP014962.1.
+            Assembly name: IRGSP-1.0
+            The genomic sequence for this RefSeq record is from the
+            whole-genome assembly released by the National Institute of
+            Agrobiological Sciences on 2015/10/10.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Oryza sativa Japonica Group
+                                           Annotation Release 102
+            Annotation Version          :: 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2407
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            1..2407
+                     /gene="LOC4340185"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:4340185"
+     mRNA            join(1..367,530..591,725..765,2073..2407)
+                     /gene="LOC4340185"
+                     /product="protein HEADING DATE 3A-like"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 180 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 24 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015786465.2"
+                     /db_xref="GeneID:4340185"
+     CDS             join(161..367,530..591,725..765,2073..2302)
+                     /gene="LOC4340185"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="protein HEADING DATE 3A"
+                     /protein_id="XP_015641951.1"
+                     /db_xref="GeneID:4340185"
+                     /translation="MAGSGRDRDPLVVGRVVGDVLDAFVRSTNLKVTYGSKTVSNGCE
+                     LKPSMVTHQPRVEVGGNDMRTFYTLVMVDPDAPSPSDPNLREYLHWLVTDIPGTTAAS
+                     FGQEVMCYESPRPTMGIHRLVFVLFQQLGRQTVYAPGWRQNFNTKDFAELYNLGSPVA
+                     AVYFNCQREAGSGGRRVYP"
+ORIGIN      
+        1 agcagccctg caccacacac agttcagcta gcagatcacc tagctagata gctgcctcta
+       61 tcacagtata tttgctccct gcaacttgct gctgctgcaa tagctagcag ctgcagctag
+      121 taagcaaaac tataaacctt cagggttttt tgcaagatcg atggccggaa gtggcaggga
+      181 cagggaccct cttgtggttg gtagggttgt gggtgatgtg ctggacgcgt tcgtccggag
+      241 caccaacctc aaggtcacct atggctccaa gaccgtgtcc aatggctgcg agctcaagcc
+      301 gtccatggtc acccaccagc ctagggtcga ggtcggcggc aatgacatga ggacattcta
+      361 cacccttgta tgtgagctct accatgtgtc gtagttggtg cagagaccag aagttatact
+      421 ttctttcatt attatattat agaaaaattt gtttggtact taacccaaga tgactttaaa
+      481 atgcattaat ttgatgtttg tcatggtttt ttgtggtgtg tacctgaagg tgatggtaga
+      541 cccagatgca ccaagcccaa gtgaccctaa ccttagggag tatctacatt ggtaagcaca
+      601 ctaatgttaa gctagcgcac ttgttttcat gcaatgatca aaataatcac tgctagctga
+      661 tttacataca taaccacatc ttgactgcat gatgggttga tcatcttaat ttgtttgtcc
+      721 acaggttggt cactgatatt cctggtacta ctgcagcgtc atttggtcag tattaaacga
+      781 tcaaatggtt tagattgatt tgatttccca cttaaataca ttgcagtata aaactaacag
+      841 aggtaaattg tctttccata ctattgtttg gggggggggg ggcagggggc agtgagttgt
+      901 tgagcatttt ccctcactcg cgagccccca gtttgccgca ttaattcccc atcatccttc
+      961 accaccacaa aaaaaaaagt gatttggaga aggatacgct cctccaaata atttttaaca
+     1021 agttcaccac cacaacgagg caccgacaac cgccatgagt ccacgcaccc tgcagctagt
+     1081 cgtgccacca gcaccacagt tagccacacc gcgagcaatc cacgccatca cttgccgctg
+     1141 tgagtccacg atcacacgcc tcgatcagcc agctgccatg atatgtcggc ttgggcttgg
+     1201 attctgcaac ataccatgtc cccatcgatg gcaccacact ctaattcgcc aacacaacac
+     1261 tgaagggatc ggatcgggag ggctagctca ctcaagatag tgacgggatg attcgatggg
+     1321 aattccatgg ggaacaaagc acaaaatcat taaaatgtcc ttttcaattc catggcaaat
+     1381 tcctaaagca atactctctc tccattctat aatgtaggtt gcacactcat ttcaagattc
+     1441 aactttcaaa acatttgact aacgatttgt ataatataaa ttgaatttta tttgatagaa
+     1501 ataatattat tggattgata tttcaatata ctttcatatg gttataattt tgttactaca
+     1561 aactttatag tatattagaa attataaata aaaaattagt tttgtagacc gtacatgcca
+     1621 agtttgacca taccatatta tgaaaaagag ggagtagtaa ccttgtttat atttgcaata
+     1681 tatactccct ccgtttctaa atatctgacg ctgttgactt tttaaacatg tttgaccgtt
+     1741 cgtcttatta aaaaataagt aattattaat tcttttccta tcatttgatt tattgttaaa
+     1801 tatattttta tgcagacata tagttttaca tatttcataa aagtttttga ataagaagaa
+     1861 tgatcgtcaa atatttagaa acgaggggag tatattgcta gtaaatttta ctgtaaagtc
+     1921 atgtttcttc atgtgtcttt tttagaacat ttcttcttca tgtgttccaa tcaatttttt
+     1981 cgatctccac caccactacc acagttgtat gtgtagtagc tagctgttgc acatgctcat
+     2041 gttaatctga atctgtccat ggttttttgc agggcaagag gtgatgtgct acgagagccc
+     2101 aaggccaacc atggggatcc accggctggt gttcgtgctg ttccagcagc tggggcgtca
+     2161 gacagtgtac gcgcccgggt ggcgtcagaa cttcaacacc aaggacttcg ccgagctcta
+     2221 caacctcggc tcgccggtcg ccgccgtcta cttcaactgc cagcgcgagg caggctccgg
+     2281 cggcaggagg gtctacccct agctaacgat gatcccgatc gatctgctgc atgctcacta
+     2341 tcatcatcca gcatgctata cattgcaggt tcagacaatt gaaatgattc tcgacacaca
+     2401 acatata
+//
