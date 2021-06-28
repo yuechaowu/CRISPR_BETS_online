@@ -168,7 +168,7 @@
 <h2>CRISPR-BETS Web online version<a class="headerlink" href="#crispr-bets-web-online-version" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul>
-<li><p>Please visit <a class="reference external" href="https://bioinfor.yzu.edu.cn/crisprbets/">https://bioinfor.yzu.edu.cn/crisprbets/</a></p>
+<li><p>Please visit <a class="reference external" href="http://bioinfor.yzu.edu.cn/crisprbets/">http://bioinfor.yzu.edu.cn/crisprbets/</a></p>
 <blockquote>
 <div><img alt="_images/main_window_online.png" src="_images/main_window_online.png" />
 </div></blockquote>
@@ -181,24 +181,48 @@
 <h2>CRISPR-BETS Desktop version<a class="headerlink" href="#crispr-bets-desktop-version" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul>
-<li><p><strong>Download CRISPR-BETS Compression file</strong></p>
+<li><p><strong>Install via precompiled file(recommend)</strong></p>
 <blockquote>
-<div><ul class="simple">
-<li><p>XXXXX(For <strong>Win</strong>)</p></li>
-<li><p>XXXXX(For <strong>Linux</strong>)</p></li>
-<li><p>XXXXX(For <strong>MacOS</strong>)</p></li>
-</ul>
+<div><ul>
+<li><p><strong>1. Download CRISPR-BETS precompiled file</strong></p>
+<blockquote>
+<div><p><a class="reference external" href="https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_linux_package.zip">Download Win Version</a>.</p>
+<blockquote>
+<div></div></blockquote>
+<p><a class="reference external" href="https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_macos_package.zip">Download macOS Version</a>.</p>
+<blockquote>
+<div></div></blockquote>
+<p><a class="reference external" href="https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_linux_package.zip">Download Linux Version</a>.</p>
+<blockquote>
+<div></div></blockquote>
 </div></blockquote>
 </li>
-<li><p><strong>Installation</strong></p>
+<li><p><strong>2. Installation</strong></p>
 <blockquote>
 <div><p>CRISPR-BETS Desktop version was written in javascript on the Electron framework, so there is no need to install other dependencies and complicated installation process, just unzip it!</p>
 <p><strong>1. Unzip the downloaded compressed file.</strong></p>
 <p><strong>2. Enter the Unziped file directory.</strong></p>
-<p><strong>3. Find the icon below and double-click it.</strong></p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Step 3 is different for different operating systems.</p>
+</div>
+<dl>
+<dt><strong>3. (under window) Find the CRISPR-BETS icon and double-click it.</strong></dt><dd><img alt="_images/CRISPR-BETS_icon.png" src="_images/CRISPR-BETS_icon.png" />
+</dd>
+</dl>
+<p><strong>3 (under macOS)  Find the CRISPR-BETS icon below drag it to Applications folder, Open the terminal and enter the following command.</strong></p>
 <blockquote>
-<div><img alt="_images/CRISPR-BETS_icon.png" src="_images/CRISPR-BETS_icon.png" />
+<div><img alt="_images/CRISPR-BETS_drag.png" src="_images/CRISPR-BETS_drag.png" />
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo xattr -d com.apple.quarantine  /Applications/CrisprBaseETS.app
+</pre></div>
+</div>
 </div></blockquote>
+<dl>
+<dt><strong>3 (under Linux)  Open the terminal and enter the following command.</strong></dt><dd><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>THE CRISPR-BETS unzipped directory/CRISPR-BETS
+</pre></div>
+</div>
+</dd>
+</dl>
 <p><strong>4. Show main window, Done！</strong></p>
 <blockquote>
 <div><img alt="_images/main_window.png" src="_images/main_window.png" />
@@ -206,6 +230,17 @@
 </div></blockquote>
 </li>
 </ul>
+</div></blockquote>
+</li>
+<li><p><strong>Install via source code</strong></p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/zhangtaolab/CRISPR-BETS_desktop.git
+<span class="nb">cd</span> CRISPR-BETS_desktop
+npm install electron@11.2.0 -g
+npm install
+electron .
+</pre></div>
+</div>
 </div></blockquote>
 </div>
 </div>

@@ -8,7 +8,7 @@ Download and Installation
 CRISPR-BETS Web online version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	- Please visit https://bioinfor.yzu.edu.cn/crisprbets/
+	- Please visit http://bioinfor.yzu.edu.cn/crisprbets/
 
 		.. image:: _static/main_window_online.png
 
@@ -20,29 +20,72 @@ CRISPR-BETS Web online version
 CRISPR-BETS Desktop version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	- **Download CRISPR-BETS Compression file**
+	- **Install via precompiled file(recommend)**
 
-		- XXXXX(For **Win**)
+		- **1. Download CRISPR-BETS precompiled file**
 
-		- XXXXX(For **Linux**)
+			`Download Win Version`_.
 
-		- XXXXX(For **MacOS**)
+				..  _`Download Win Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_linux_package.zip
+
+			`Download macOS Version`_.
+
+				..  _`Download macOS Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_macos_package.zip
+
+			`Download Linux Version`_.
+
+				..  _`Download Linux Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_linux_package.zip
 
 
-	- **Installation**
+		- **2. Installation**
 
-		CRISPR-BETS Desktop version was written in javascript on the Electron framework, so there is no need to install other dependencies and complicated installation process, just unzip it!
+			CRISPR-BETS Desktop version was written in javascript on the Electron framework, so there is no need to install other dependencies and complicated installation process, just unzip it!
 
-		**1. Unzip the downloaded compressed file.**
+			**1. Unzip the downloaded compressed file.**
 
-		**2. Enter the Unziped file directory.**
+			**2. Enter the Unziped file directory.**
 
-		**3. Find the icon below and double-click it.** 
 
-			.. image:: _static/CRISPR-BETS_icon.png
+			.. attention::  Step 3 is different for different operating systems.
 
-		**4. Show main window, Done！**
+			**3. (under window) Find the CRISPR-BETS icon and double-click it.**  
+				.. image:: _static/CRISPR-BETS_icon.png
 
-			.. image:: _static/main_window.png
+
+			**3 (under macOS)  Find the CRISPR-BETS icon below drag it to Applications folder, Open the terminal and enter the following command.**  
+
+				.. image:: _static/CRISPR-BETS_drag.png
+				.. code-block:: bash
+
+					 sudo xattr -d com.apple.quarantine  /Applications/CrisprBaseETS.app
+
+
+			**3 (under Linux)  Open the terminal and enter the following command.**
+				.. code-block:: bash
+
+					 THE CRISPR-BETS unzipped directory/CRISPR-BETS
+
+
+			**4. Show main window, Done！**
+
+				.. image:: _static/main_window.png
+
+	- **Install via source code**
+
+	.. code-block:: bash
+
+		 git clone https://github.com/zhangtaolab/CRISPR-BETS_desktop.git
+		 cd CRISPR-BETS_desktop
+		 npm install electron@11.2.0 -g
+		 npm install
+		 electron .
+
+
+
+
+
+			
+				
+			
 
 

@@ -81,9 +81,20 @@ Step4: Scanning result panel and download result information
 
 		.. image:: _static/step4.png
 
+--------------
 
 
 
 
+Video tutorials
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`YouTube (EN)`_.
+
+	..  _`YouTube (EN)`: https://www.youtube.com/watch?v=i8cZowJZ--s
+
+`哔哩哔哩 (中文)`_.
+
+	..  _`哔哩哔哩 (中文)`: https://www.bilibili.com/video/BV1c44y1z7TG
 
 	
