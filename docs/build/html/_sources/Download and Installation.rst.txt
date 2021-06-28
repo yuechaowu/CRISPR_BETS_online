@@ -52,7 +52,7 @@ CRISPR-BETS Desktop version
 				.. image:: _static/CRISPR-BETS_icon.png
 
 
-			**3 (under macOS)  Find the CRISPR-BETS icon below drag it to Applications folder, Open the terminal and enter the following command.**  
+			**3 (under macOS)  Find the CRISPR-BETS icon and drag it to Applications folder, Open the terminal and enter the following command.**  
 
 				.. image:: _static/CRISPR-BETS_drag.png
 				.. code-block:: bash
