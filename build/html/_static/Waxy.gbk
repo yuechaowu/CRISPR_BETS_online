@@ -1,0 +1,432 @@
+LOCUS       NC_029261               5121 bp    DNA     linear   CON 07-AUG-2018
+DEFINITION  Oryza sativa Japonica Group cultivar Nipponbare chromosome 6,
+            IRGSP-1.0.
+ACCESSION   NC_029261 REGION: 1765524..1770644
+VERSION     NC_029261.1
+DBLINK      BioProject: PRJNA122
+            BioSample: SAMD00000397
+            Assembly: GCF_001433935.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP
+            clade; Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+REFERENCE   1  (bases 1 to 5121)
+  AUTHORS   Kawahara,Y., de la Bastide,M., Hamilton,J.P., Kanamori,H.,
+            McCombie,W.R., Ouyang,S., Schwartz,D.C., Tanaka,T., Wu,J., Zhou,S.,
+            Childs,K.L., Davidson,R.M., Lin,H., Quesada-Ocampo,L.,
+            Vaillancourt,B., Sakai,H., Lee,S.S., Kim,J., Numa,H., Itoh,T.,
+            Buell,C.R. and Matsumoto,T.
+  TITLE     Improvement of the Oryza sativa Nipponbare reference genome using
+            next generation sequence and optical map data
+  JOURNAL   Rice (N Y) 6 (1), 4 (2013)
+   PUBMED   24280374
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            AP014962.1.
+            Assembly name: IRGSP-1.0
+            The genomic sequence for this RefSeq record is from the
+            whole-genome assembly released by the National Institute of
+            Agrobiological Sciences on 2015/10/10.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Oryza sativa Japonica Group
+                                           Annotation Release 102
+            Annotation Version          :: 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5121
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            1..5121
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:4340018"
+     mRNA            join(1..144,1361..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 250 ESTs, 9 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 13 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015789003.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(2..144,1361..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2878,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 12 mRNAs, 251 ESTs, 52 Proteins,
+                     and 100% coverage of the annotated genomic feature by
+                     RNAseq alignments, including 16 samples with support for
+                     all annotated introns"
+                     /transcript_id="XM_015789006.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(79..1736,1850..1930,2038..2136,2233..2322,2422..2485,
+                     2578..2678,2769..2884,3000..3243,3361..3537,3781..3972,
+                     4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 252 ESTs, 9 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 16 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015789000.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(79..1736,1850..1930,2038..2136,2233..2322,2422..2485,
+                     2578..2678,2769..2878,3000..3243,3361..3537,3781..3972,
+                     4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 mRNAs, 253 ESTs, 52 Proteins,
+                     and 100% coverage of the annotated genomic feature by
+                     RNAseq alignments, including 23 samples with support for
+                     all annotated introns"
+                     /transcript_id="XM_015789004.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(79..237,1361..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 248 ESTs, 9 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 12 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015789001.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(79..236,1366..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 249 ESTs, 8 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 12 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015789002.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(79..236,1366..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2878,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X7"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 11 mRNAs, 250 ESTs, 52 Proteins,
+                     and 100% coverage of the annotated genomic feature by
+                     RNAseq alignments, including 13 samples with support for
+                     all annotated introns"
+                     /transcript_id="XM_015789005.2"
+                     /db_xref="GeneID:4340018"
+     mRNA            join(121..144,1366..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..5121)
+                     /gene="LOC4340018"
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic-like, transcript variant X5"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 248 ESTs, 9 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 13 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_026026515.1"
+                     /db_xref="GeneID:4340018"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X1"
+                     /protein_id="XP_015644486.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYEYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISG
+                     IARGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQA
+                     EAGLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKS
+                     MEEKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACAST
+                     GGLVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCM
+                     NQDLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X1"
+                     /protein_id="XP_015644487.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYEYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISG
+                     IARGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQA
+                     EAGLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKS
+                     MEEKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACAST
+                     GGLVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCM
+                     NQDLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X1"
+                     /protein_id="XP_015644488.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYEYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISG
+                     IARGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQA
+                     EAGLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKS
+                     MEEKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACAST
+                     GGLVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCM
+                     NQDLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X1"
+                     /protein_id="XP_015644489.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYEYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISG
+                     IARGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQA
+                     EAGLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKS
+                     MEEKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACAST
+                     GGLVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCM
+                     NQDLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2884,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X1"
+                     /protein_id="XP_025882300.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYEYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISG
+                     IARGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQA
+                     EAGLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKS
+                     MEEKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACAST
+                     GGLVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCM
+                     NQDLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2878,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X2"
+                     /protein_id="XP_015644490.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISGIA
+                     RGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQAEA
+                     GLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKSME
+                     EKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACASTGG
+                     LVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCMNQ
+                     DLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2878,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X2"
+                     /protein_id="XP_015644491.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISGIA
+                     RGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQAEA
+                     GLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKSME
+                     EKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACASTGG
+                     LVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCMNQ
+                     DLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     CDS             join(1398..1736,1850..1930,2038..2136,2233..2322,
+                     2422..2485,2578..2678,2769..2878,3000..3243,3361..3537,
+                     3781..3972,4079..4165,4275..4403,4761..4877)
+                     /gene="LOC4340018"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="granule-bound starch synthase 1,
+                     chloroplastic/amyloplastic isoform X2"
+                     /protein_id="XP_015644492.1"
+                     /db_xref="GeneID:4340018"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISGIA
+                     RGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQAEA
+                     GLPVDRKIPLIAFIGRLEEQKGPDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKSME
+                     EKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACASTGG
+                     LVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCMNQ
+                     DLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+ORIGIN      
+        1 gtaaaatgtg ttgcgggagg gagaggggga gagagagatc gcgcgggctt cacgcaacgg
+       61 cgctacaaat agccacccac accaccaccc cctctctcac cattccttca gttctttgtc
+      121 tatctcaaga cacaaataac tgcagtctct ctctctctct ctctctctct ctctctctct
+      181 ctgcttcact tctctgcttg tgttgttctg ttgttcatca ggaagaacat ctgcaagtta
+      241 tacatatatg tttataattc tttgtttccc ctcttattca gatcgatcac atgcatcttt
+      301 cattgctcgt ttttccttac aagtagtctc atacatgcta atttctgtaa ggtgttgggc
+      361 tggaaattaa ttaattaatt aattgacttg ccaagatcca tatatatgtc ctgatattaa
+      421 atcttcgttc gttatgtttg gttaggctga tcaatgttat tctagagtct agagaaacac
+      481 acccaggggt tttccaacta gctccacaag atggtgggct agctgaccta gatttgaagt
+      541 ctcactcctt ataattattt tatattagat cattttctaa tattcgtgtc tttttttatt
+      601 ctagagtcta gatcttgtgt tcaactctcg ttaaatcatg tctctcgcca ctggagaaac
+      661 agatcaggag ggtttatttt gggtataggt caaagctaag attgaaattc acaaatagta
+      721 aaatcagaat ccaaccaatt ttagtagccg agttggtcaa aggaaaatgt atatagctag
+      781 atttattgtt ttggcaaaaa aaaatctgaa tatgcaaaat acttgtatat ctttgtatta
+      841 agaagatgaa aataagtagc agaaaattaa aaaatggatt atatttcctg ggctaaaaga
+      901 attgttgatt tggcacaatt aaattcagtg tcaaggtttt gtgcaagaat tcagtgtgaa
+      961 ggaatagatt ctcttcaaaa caatttaatc attcatctga tctgctcaaa gctctgtgca
+     1021 tctccgggtg caacggccag gatatttatt gtgcagtaaa aaaatgtcat atcccctagc
+     1081 cacccaagaa actgctcctt aagtccttat aagcacatat ggcattgtaa tatatatgtt
+     1141 tgagttttag cgacaatttt tttaaaaact tttggtcctt tttatgaacg ttttaagttt
+     1201 cactgtcttt ttttttcgaa ttttaaatgt agcttcaaat tctaatcccc aatccaaatt
+     1261 gtaataaact tcaattctcc taattaacat cttaattcat ttatttgaaa accagttcaa
+     1321 attcttttag gctcaccaaa ccttaaacaa ttcaattcag tgcagagatc ttccacagca
+     1381 acagctagac aaccaccatg tcggctctca ccacgtccca gctcgccacc tcggccaccg
+     1441 gcttcggcat cgccgacagg tcggcgccgt cgtcgctgct ccgccacggg ttccagggcc
+     1501 tcaagccccg cagccccgcc ggcggcgacg cgacgtcgct cagcgtgacg accagcgcgc
+     1561 gcgcgacgcc caagcagcag cggtcggtgc agcgtggcag ccggaggttc ccctccgtcg
+     1621 tcgtgtacgc caccggcgcc ggcatgaacg tcgtgttcgt cggcgccgag atggccccct
+     1681 ggagcaagac cggcggcctc ggtgacgtcc tcggtggcct cccccctgcc atggctgtaa
+     1741 gcacacacaa acttcgatcg ctcgtcgtcg ctgaccgtcg tcgtcttcaa ctgttcttga
+     1801 tcatcgcatt ggatggatgt gtaatgttgt gttcttgtgt tctttgcagg cgaatggcca
+     1861 cagggtcatg gtgatctctc ctcggtacga ccagtacaag gacgcttggg ataccagcgt
+     1921 tgtggctgag gtaggagcat atgcgtgatc agatcatcac aagatcgatt agctttagat
+     1981 gatttgttac atttcgcaag attttaaccc aagtttttgt ggtgcaattc attgcagatc
+     2041 aaggttgcag acaggtacga gagggtgagg tttttccatt gctacaagcg tggagtcgac
+     2101 cgtgtgttca tcgaccatcc gtcattcctg gagaaggtgg agtcatcatt agtttacctt
+     2161 ttttgttttt actgaattat taacagtgca tttagcagtt ggactgagct tagcttccac
+     2221 tggtgatttc aggtttgggg aaagaccggt gagaagatct acggacctga cactggagtt
+     2281 gattacaaag acaaccagat gcgtttcagc cttctttgcc aggtcagtga ttacttctat
+     2341 ctgatgatgg ttggaagcat cacgagttta ccatagtatg tatggattca taactaattc
+     2401 gtgtattgat gctacctgca ggcagcactc gaggctccta ggatcctaaa cctcaacaac
+     2461 aacccatact tcaaaggaac ttatggtgag ttacaattga tctcaagatc ttataacttt
+     2521 cttcgaagga atccatgatg atcagactaa ttccttccgg tttgttactg acaacaggtg
+     2581 aggatgttgt gttcgtctgc aacgactggc acactggccc actggcgagc tacctgaaga
+     2641 acaactacca gcccaatggc atctacagga atgcaaaggt ctatgcttgt tcttgccata
+     2701 ccaactcaaa tctgcatgca cactgcattc tgttcagaaa ctgactgtct gaatcttttt
+     2761 cactgcaggt tgctttctgc atccacaaca tctcctacca gggccgtttc gctttcgagg
+     2821 attaccctga gctgaacctc tccgagaggt tcaggtcatc cttcgatttc atcgacgggt
+     2881 atgagtaaga ttctaagagt aacttactgt caattcgcca tatatcgatt caatccaaga
+     2941 tccttttgag ctgacaaccc tgcactactg tccatcgttc aaatccggtt aaatttcagg
+     3001 tatgacacgc cggtggaggg caggaagatc aactggatga aggccggaat cctggaagcc
+     3061 gacagggtgc tcaccgtgag cccgtactac gccgaggagc tcatctccgg catcgccagg
+     3121 ggatgcgagc tcgacaacat catgcggctc accggcatca ccggcatcgt caacggcatg
+     3181 gacgtcagcg agtgggatcc tagcaaggac aagtacatca ccgccaagta cgacgcaacc
+     3241 acggtaagaa cgaatgcatt cttcacaaga tatgcaatct gaattttctt tgaaaaagaa
+     3301 attatcatct gtcacttctt gattgattct gacaaggcaa gaatgagtga caaatttcag
+     3361 gcaatcgagg cgaaggcgct gaacaaggag gcgttgcagg cggaggcggg tcttccggtc
+     3421 gacaggaaaa tcccactgat cgcgttcatc ggcaggctgg aggaacagaa gggccctgac
+     3481 gtcatggccg ccgccatccc ggagctcatg caggaggacg tccagatcgt tcttctggta
+     3541 taatataata cactacaaga cacacttgca cgatatgcca aaaattcaga acaaattcag
+     3601 tggcaaaaaa aaaactcgaa tattagggaa ggacctaata atatcaaata attagaaggg
+     3661 gtgaggcttt gaacccagat cgtctagtcc accaccttgt ggagttagcc ggaagacctc
+     3721 tgagcatttc tcaattcagt ggcaaatgat gtgtataatt ttgatccgtg tgtgtttcag
+     3781 ggtactggaa agaagaagtt cgagaagctg ctcaagagca tggaggagaa gtatccgggc
+     3841 aaggtgaggg ccgtggtgaa gttcaacgcg ccgcttgctc atctcatcat ggccggagcc
+     3901 gacgtgctcg ccgtccccag ccgcttcgag ccctgtggac tcatccagct gcaggggatg
+     3961 agatacggaa cggtatacaa tttccatcta tcaattcgat tgttcgattt catctttgtg
+     4021 caatgcaatg caattgcaaa tgcaaatgca tgatgatttt ccttgttgat ttctccagcc
+     4081 ctgtgcttgc gcgtccaccg gtgggctcgt ggacacggtc atcgaaggca agactggttt
+     4141 ccacatgggc cgtctcagcg tcgacgtaag cctatacatt tacataacaa tcagatatga
+     4201 cacatcctaa taccgataag tcggtacact actacacatt tacatggttg ctggttatat
+     4261 ggtttttttg gcagtgcaag gtggtggagc caagcgacgt gaagaaggtg gcggccaccc
+     4321 tgaagcgcgc catcaaggtc gtcggcacgc cggcgtacga ggagatggtc aggaactgca
+     4381 tgaaccagga cctctcctgg aaggtataaa ttacgaaaca aatttaaccc aaacatatac
+     4441 tatatactcc ctccgcttct aaatattcaa cgccgttgtc ttttttaaat atgtttgacc
+     4501 attcgtctta ttaaaaaaat taaataatta taaattcttt tcctatcatt tgattcattg
+     4561 ttaaatatac ttatatgtat acatatagtt ttacatattt cataaaattt tttgaacaag
+     4621 acgaacggtc aaacatgtgc taaaaagtta acggtgtcga atattcagaa acggagggag
+     4681 tataaacgtc ttgttcagaa gttcagagat tcacctgtct gatgctgatg atgattaatt
+     4741 gtttgcaaca tggatttcag gggcctgcga agaactggga gaatgtgctc ctgggcctgg
+     4801 gcgtcgccgg cagcgcgccg gggatcgaag gcgacgagat cgcgccgctc gccaaggaga
+     4861 acgtggctgc tccttgaaga gcctgagatc tacatatgga gtgattaatt aatatagcag
+     4921 tatatggatg agagacgaat gaaccagtgg tttgtttgtt gtagtgaatt tgtagctata
+     4981 gccaattata taggctaata agtttgatgt tgtactcttc tgggtgtgct taagtatctt
+     5041 atcggaccct gaatttatgt gtgtggctta ttgccaataa tattaagtaa taaagggttt
+     5101 attatattat tatatatgtt a
+//
+

@@ -1,0 +1,367 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Tutorial to design gRNA for CRISPR base editing knockout system. &mdash; CRISPR-BETS 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="Video Tutorials.html" />
+    <link rel="prev" title="Download and Installation" href="Download and Installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> CRISPR-BETS
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Download and Installation.html">Download and Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial to design gRNA for CRISPR base editing knockout system.</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-prepare-input-file">Step 1: Prepare input file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-select-and-upload-file">Step 2: Select and upload file</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#upload-genbank-or-snapgene-file">① upload GenBank or Snapgene file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#upload-fasta-file-or-sequences">② upload fasta file or sequences</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-select-edit-system-option">Step 3: Select edit system option</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parameter-description">Parameter description</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#step-4-scanning-result-panel-and-download-result-information">Step 4: Scanning result panel and download result information</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-following-two-functional-buttons-exist-in-the-upper-right-corner-of-the-results-panel">The following two functional buttons exist in the upper right corner of the results panel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#output-result-description">Output result description</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#video-tutorials">Video tutorials</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">CRISPR-BETS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Tutorial to design gRNA for CRISPR base editing knockout system.</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Tutorial.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tutorial-to-design-grna-for-crispr-base-editing-knockout-system">
+<h1>Tutorial to design gRNA for CRISPR base editing knockout system.<a class="headerlink" href="#tutorial-to-design-grna-for-crispr-base-editing-knockout-system" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<div class="section" id="step-1-prepare-input-file">
+<h2>Step 1: Prepare input file<a class="headerlink" href="#step-1-prepare-input-file" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>CRISPR-BETS allows <strong>Genbank</strong>, <strong>Snapgene</strong>, <strong>Fasta</strong> file formats as input.</p>
+<ol class="arabic">
+<li><dl>
+<dt>Genbank</dt><dd><p>The GenBank format for most genes can be downloaded from NCBI(<a class="reference external" href="https://www.ncbi.nlm.nih.gov/">https://www.ncbi.nlm.nih.gov/</a>).</p>
+<p>Download <a class="reference download internal" download="" href="_downloads/2677ba5a849774e9bb4c1743b6d2938e/Waxy.gbk"><code class="xref download docutils literal notranslate"><span class="pre">Genbank</span> <span class="pre">example</span> <span class="pre">file</span></code></a>.</p>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Snapgene</dt><dd><p>For Snapgene file(.dna), CRISRP-BETS uses a continuous CDS feature to determine the coding sequence of the gene, and different continuous CDS features serve as different isoforms. Snapgene file(.dna) could be generated by SnapGene software (from Insightful Science; available at <a class="reference external" href="https://www.snapgene.com/">https://www.snapgene.com/</a>).</p>
+<p>Download <a class="reference download internal" download="" href="_downloads/d87df47a858841863c06b6e859ef51e1/NC_000019.dna"><code class="xref download docutils literal notranslate"><span class="pre">Snapgene</span> <span class="pre">example</span> <span class="pre">file</span></code></a>.</p>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Fasta</dt><dd><p>The CRISPR-BETS will use exonerate(<a class="reference external" href="https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate">https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate</a>) align CDS sequence to DNA sequence to found Splicing site.</p>
+<p>Download <a class="reference download internal" download="" href="_downloads/6d1ddb608eaf46fdf263927321da4524/DNA.fasta"><code class="xref download docutils literal notranslate"><span class="pre">DNA</span> <span class="pre">Fasta</span> <span class="pre">example</span> <span class="pre">file</span></code></a>. Download <a class="reference download internal" download="" href="_downloads/b1e58ae1662058c08cbdf1f41c63c1cf/CDS.fasta"><code class="xref download docutils literal notranslate"><span class="pre">CDS</span> <span class="pre">Fasta</span> <span class="pre">example</span> <span class="pre">file</span></code></a></p>
+</dd>
+</dl>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-2-select-and-upload-file">
+<h2>Step 2: Select and upload file<a class="headerlink" href="#step-2-select-and-upload-file" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="upload-genbank-or-snapgene-file">
+<h3>① upload GenBank or Snapgene file<a class="headerlink" href="#upload-genbank-or-snapgene-file" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Navigate to the <strong>‘Select load file type’</strong> panel. click ‘GenBank’ button (GenBank is the default input file).</p></li>
+<li><p>Upload the GenBank files.</p></li>
+<li><p>Select gene isoform (support for Genbank and Snapgene file).</p>
+<img alt="_images/step2.png" src="_images/step2.png" />
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="upload-fasta-file-or-sequences">
+<h3>② upload fasta file or sequences<a class="headerlink" href="#upload-fasta-file-or-sequences" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Navigate to the <strong>‘Select load file type’</strong> panel. click ‘Fasta(sequence)’ button</p></li>
+<li><p>Fill the text box with both the DNA and CDS sequences of a gene.</p>
+<img alt="_images/step2_sequence.png" src="_images/step2_sequence.png" />
+</li>
+</ol>
+<p><strong>NOTE:In order to design cross-CDS gRNA, enter both DNA and CDS FASTA files or sequences. Currently, only one gene is supported by an analysis.</strong></p>
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-3-select-edit-system-option">
+<h2>Step 3: Select edit system option<a class="headerlink" href="#step-3-select-edit-system-option" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Navigate to the <strong>‘Edit system option’</strong> panel.</p></li>
+<li><p>(optional) Select <strong>‘Cas9 variants’</strong>, <strong>‘PAM’</strong> and <strong>‘gRNA length’</strong> will be automatically filled.</p></li>
+<li><p>(optional) Select <strong>‘Deaminase’</strong>, <strong>‘Edit window’</strong> will be automatically filled.</p></li>
+<li><p>The user fill <strong>‘PAM’</strong>, <strong>‘gRNA length’</strong> and <strong>‘Edit window’</strong>.</p></li>
+<li><p>(optional) The user select genome to estimate the specificity of each gRNA.</p></li>
+<li><p>Click the <strong>‘Analysis’</strong> button and wait for the analysis to complete.</p>
+<img alt="_images/step3.png" src="_images/step3.png" />
+</li>
+</ol>
+</div></blockquote>
+<div class="section" id="parameter-description">
+<h3>Parameter description<a class="headerlink" href="#parameter-description" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p><strong>1. Cas9 variants:</strong> Select the appropriate Cas9 variant. Once selected, the parameters <strong>PAM</strong> and <strong>gRNA length</strong> will be filled in automatically, not required.</p>
+<p><strong>2. PAM:</strong> The default value is NGG, which can be customized, required.</p>
+<p><strong>3. Edit window:</strong> The default values are 1 and 20 (The farthest first base of PAM is represented as a 1), which can be customized, required.</p>
+<p><strong>4. gRNA length:</strong> The default value is 20, which can be customized, required.</p>
+<p><strong>5. Select genome for offtarget analysis:</strong> Select species genome for off-target analysis, this step will increase the running time of CRISPR-BETS, not required.</p>
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-4-scanning-result-panel-and-download-result-information">
+<h2>Step 4: Scanning result panel and download result information<a class="headerlink" href="#step-4-scanning-result-panel-and-download-result-information" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Navigate to the ‘result panel’, the user can drag and zoom to check the detailed information of each gRNA.</p></li>
+<li><p>Click ‘save result as txt’ button to download result.</p>
+<img alt="_images/step4.png" src="_images/step4.png" />
+</li>
+</ol>
+</div></blockquote>
+<div class="section" id="the-following-two-functional-buttons-exist-in-the-upper-right-corner-of-the-results-panel">
+<h3>The following two functional buttons exist in the upper right corner of the results panel<a class="headerlink" href="#the-following-two-functional-buttons-exist-in-the-upper-right-corner-of-the-results-panel" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p><strong>Screenshot:</strong> Take a screenshot of the current page.</p>
+<blockquote>
+<div><img alt="_static/photo.png" src="_static/photo.png" />
+</div></blockquote>
+<p><strong>save result as file:</strong>        Take a screenshot of the current page.</p>
+<blockquote>
+<div><img alt="_static/save.png" src="_static/save.png" />
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="output-result-description">
+<h3>Output result description<a class="headerlink" href="#output-result-description" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p><strong>The first row:</strong>      Target gene name, determined according to the uploaded file name.</p>
+<blockquote>
+<div><img alt="_static/row1.png" src="_static/row1.png" />
+</div></blockquote>
+<p><strong>The second row:</strong>     Gene DNA sequences.</p>
+<blockquote>
+<div><img alt="_static/row2.png" src="_static/row2.png" />
+</div></blockquote>
+<p><strong>The third row:</strong>      The position of CDS in DNA.</p>
+<blockquote>
+<div><img alt="_static/row3.png" src="_static/row3.png" />
+</div></blockquote>
+<p><strong>Row five to the last:</strong>       Each target codon and its corresponding gRNA, different information is separated by ‘;’.</p>
+<blockquote>
+<div><img alt="_static/row5.png" src="_static/row5.png" />
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="video-tutorials">
+<h2>Video tutorials<a class="headerlink" href="#video-tutorials" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=i8cZowJZ--s">YouTube (EN)</a>.</p>
+<blockquote>
+<div></div></blockquote>
+<p><a class="reference external" href="https://www.bilibili.com/video/BV1c44y1z7TG">哔哩哔哩 (中文)</a>.</p>
+<blockquote>
+<div></div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Video Tutorials.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Download and Installation.html" class="btn btn-neutral float-left" title="Download and Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, ZhangTao Lab.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
