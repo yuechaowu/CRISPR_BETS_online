@@ -1,0 +1,163 @@
+LOCUS       NC_029260               2571 bp    DNA     linear   CON 07-AUG-2018
+DEFINITION  Oryza sativa Japonica Group cultivar Nipponbare chromosome 5,
+            IRGSP-1.0.
+ACCESSION   NC_029260 REGION: complement(24067696..24070266)
+VERSION     NC_029260.1
+DBLINK      BioProject: PRJNA122
+            BioSample: SAMD00000397
+            Assembly: GCF_001433935.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP
+            clade; Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+REFERENCE   1  (bases 1 to 2571)
+  AUTHORS   Kawahara,Y., de la Bastide,M., Hamilton,J.P., Kanamori,H.,
+            McCombie,W.R., Ouyang,S., Schwartz,D.C., Tanaka,T., Wu,J., Zhou,S.,
+            Childs,K.L., Davidson,R.M., Lin,H., Quesada-Ocampo,L.,
+            Vaillancourt,B., Sakai,H., Lee,S.S., Kim,J., Numa,H., Itoh,T.,
+            Buell,C.R. and Matsumoto,T.
+  TITLE     Improvement of the Oryza sativa Nipponbare reference genome using
+            next generation sequence and optical map data
+  JOURNAL   Rice (N Y) 6 (1), 4 (2013)
+   PUBMED   24280374
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            AP014961.1.
+            Assembly name: IRGSP-1.0
+            The genomic sequence for this RefSeq record is from the
+            whole-genome assembly released by the National Institute of
+            Agrobiological Sciences on 2015/10/10.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Oryza sativa Japonica Group
+                                           Annotation Release 102
+            Annotation Version          :: 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2571
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+     gene            1..2571
+                     /gene="LOC4339159"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:4339159"
+     misc_RNA        join(1..246,371..396,515..542,1081..1214,1309..1383,
+                     1801..1896,2254..2571)
+                     /gene="LOC4339159"
+                     /product="histone H3-1, transcript variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments,
+                     including 39 samples with support for all annotated
+                     introns"
+                     /transcript_id="XR_001545891.2"
+                     /db_xref="GeneID:4339159"
+     mRNA            join(10..246,371..396,515..542,1081..1214,1309..1383,
+                     1821..1896,2254..2571)
+                     /gene="LOC4339159"
+                     /product="histone H3-1, transcript variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 ESTs, 22 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 59 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015783251.2"
+                     /db_xref="GeneID:4339159"
+     mRNA            join(11..246,371..396,515..542,1084..1214,1309..1383,
+                     1821..1896,2254..2571)
+                     /gene="LOC4339159"
+                     /product="histone H3-1, transcript variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 7 ESTs, 23 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 59 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_015783252.2"
+                     /db_xref="GeneID:4339159"
+     CDS             join(141..246,371..396,515..542,1084..1214,1309..1383,
+                     1821..1896,2254..2306)
+                     /gene="LOC4339159"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="histone H3-1 isoform X2"
+                     /protein_id="XP_015638738.1"
+                     /db_xref="GeneID:4339159"
+                     /translation="MARTKHPAVRKSKAEPKKKLQFERSPRPSKAQRAGGGTGTSATT
+                     RSAAGTSASGTPRQQTKQRKPHRFRPGTVALREIRKFQKTTELLIPFAPFSRLVREIT
+                     DFYSKDVSRWTLEALLALQEAAEYHLVDIFEVSNLCAIHAKRVTIMQKDMQLARRIGG
+                     RRPW"
+     CDS             join(141..246,371..396,515..542,1081..1214,1309..1383,
+                     1821..1896,2254..2306)
+                     /gene="LOC4339159"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="histone H3-5 isoform X1"
+                     /protein_id="XP_015638737.1"
+                     /db_xref="GeneID:4339159"
+                     /translation="MARTKHPAVRKSKAEPKKKLQFERSPRPSKAQRAGGGTGTSATT
+                     RSAAGTSASAGTPRQQTKQRKPHRFRPGTVALREIRKFQKTTELLIPFAPFSRLVREI
+                     TDFYSKDVSRWTLEALLALQEAAEYHLVDIFEVSNLCAIHAKRVTIMQKDMQLARRIG
+                     GRRPW"
+ORIGIN      
+        1 caaaaccaag ggcctaaccg caaaaaggga tccccaaccc aaaaccaaaa gaaaccctct
+       61 cccgtttgcc tccacgccgc ttcagtttga aaacccaccg ccacgtcgcc gccgccgccg
+      121 ccgccgccgc cgacgccgag atggctcgca cgaagcaccc ggcggtgagg aagtcgaagg
+      181 cggagcccaa gaagaagctc cagttcgaac gctcccctcg gccgtcgaag gcgcagcgcg
+      241 ctggtggtga gcgcgcgctc tctccccctc tgcgtttctt tttttttttc ctttttcttt
+      301 caatggcggt ggatggtgaa gcttatgccc cccccccccc cttcccgcct cttgcttgtc
+      361 ccctttgcag gcggcacggg tacctcggcg accacggtgc gtgcgggagc gggtctttcg
+      421 tttggtgatt ttttgatttt gtggggggat atgtttttgt tttgtatctt ggctggatgg
+      481 atggcttgct caccacctgt ttgatggaat gcagaggagc gcggctggaa catcggcttc
+      541 aggtgcgttc tcttgggggg gtttctaggg ttattcatgg gctcgttgga gcttttcctt
+      601 tctgtctctt ggattccggg ggacctgagg ggctcaatgt gtcccttttc ttgctctgtt
+      661 ttaccgtgtg ctgtactttc ctcatcgttg ttttctgaat atattataag aacagtagtt
+      721 gcagaaagat cttcaattgc tcatcagtca aagcttttct tgttttcatt ctgaaataat
+      781 agcaaatcca gtttggtcca tggaggggtt atctgaaaca ttatgaccat aaaacatggt
+      841 attaagcatt gctagccaag aaatgtgtgg tttttagaca cgatgttgat aggtgatttt
+      901 tatgctcatc cattattagt ctttgcatcg tgggaactga tttagtaaac tttctttagt
+      961 gtcatggttc aaatagcgtc tgttctacct agatgatagg tatccatatg gaagtcttgg
+     1021 ctttggaatt gctctccttt tgttctcctg tgattaaata actttaacat gtgtgtgaag
+     1081 cagggacgcc taggcagcaa acgaagcaga ggaagccaca ccgcttccgt ccaggcacag
+     1141 tggcactgcg ggagatcagg aaatttcaga aaaccaccga actgctgatc ccgtttgcac
+     1201 cattttctcg gctggtgggt acatcctgaa cctgccttct ctctatatca aatatttcgt
+     1261 agtgcaaact tgtgtgatgg aagctttttg tgccgataaa atttgcaggt cagggagatc
+     1321 actgatttct attcaaagga tgtgtcacgg tggacccttg aagctctcct tgcattgcaa
+     1381 gaggtcagtg gtcaaacctg tttattataa gtttacaact gatggcttag ttagggaagg
+     1441 gtcagactga attatactgt ttaaattcca ttctgcttca agactcaagt cacggctcaa
+     1501 gagtgtaact gaaaaatgta caaatcttcc atgatcaata aaatgaatat ctctgtgtgt
+     1561 tgatttatga gtcagattgc taaattatta tcctttttca gtagaacacc tatatactac
+     1621 aaatatgcaa cctccctatt ttgttgtgtc tgttcaagat tgctatcata gagtatacca
+     1681 atttcagttc cttctttcca gccatgtctg tttctgcata accaggaaaa ggaacaaaga
+     1741 gctgacttaa ttctcacaaa ataaattatg ttatttactt gctgtcctgc aaatttccag
+     1801 tggttttccc tctcctgcag gcagcagaat accacttagt ggacatattt gaagtgtcaa
+     1861 atctctgcgc catccatgct aagcgtgtta ccatcagtaa gttgtcattc tgaatgaact
+     1921 tttctctttc tttttctccc tttatattat tatgctaaat ggatatcata tatgccacag
+     1981 cctacatgat atcatatacg catccacttc aaaagcattc tattttttta taggaataac
+     2041 attctaattg caggatgatt cttaatacat gtgtttatat ttaatgtcat atctagtttt
+     2101 catactctta aatttatcat gattattgat taaacatagg gagaattagt tggtttgtga
+     2161 gttttgaggt gtgaaatatg ctgcttgcta ttccctgtaa agcttatcag cgttgtcatt
+     2221 gtgtggttta acaaataaac gtttgttctg cagtgcaaaa ggacatgcaa cttgccaggc
+     2281 gtatcggtgg gcggaggcca tggtgaaaat ttgtttgcga gccatgcagc atgatggaca
+     2341 aggagcaaca tgtgtcgttg attaacattt tagaaagtag tgtagatgta tcttcacata
+     2401 gggatcaact tacccttcgt tcccattcta attcagttga tgttagtatt taccttttgc
+     2461 tccatttgga ttggtcgaat tcaggatttc atcaaacagt cgattgtgaa atgtgaacca
+     2521 ggaattgttg tgttgattgc aataatgggt tcctctcacc tgcttcttcc a
+//
+
