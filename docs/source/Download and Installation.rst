@@ -26,15 +26,15 @@ CRISPR-BETS Desktop version
 
 			`Download Win Version`_.
 
-				..  _`Download Win Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_win_package.zip
+				..  _`Download Win Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_win_package.zip
 
 			`Download macOS Version`_.
 
-				..  _`Download macOS Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_macos_package.zip
+				..  _`Download macOS Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_macos_package.zip
 
 			`Download Linux Version`_.
 
-				..  _`Download Linux Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.0/CrisprBaseETS_linux_package.zip
+				..  _`Download Linux Version`: https://github.com/yuechaowu/CRISPR-BETS_desktop/releases/download/V1.4/CrisprBaseETS_linux_package.zip
 
 
 		- **2. Installation**

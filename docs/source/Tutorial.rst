@@ -119,7 +119,7 @@ The following two functional buttons exist in the upper right corner of the resu
 
 	**save result as file:**	Take a screenshot of the current page.
 
-		.. image:: _static/save.png
+		.. image:: _static/excel.png
 	
 
 
@@ -130,17 +130,21 @@ Output result description
 
 		.. image:: _static/row1.png
 
-	**The second row:**	Gene DNA sequences.
+	**The second row:**	Edit system option.
 
 		.. image:: _static/row2.png
 
-	**The third row:**	The position of CDS in DNA.
+	**The third row:**	Gene DNA sequences.
 
 		.. image:: _static/row3.png
+
+	**The fourth row:**	The position of CDS in DNA.
+
+		.. image:: _static/row4.png
 	
 	**Row five to the last:**	Each target codon and its corresponding gRNA, different information is separated by ';'.
 
-		.. image:: _static/row5.png
+		.. image:: _static/row6.png
 	
 
 
